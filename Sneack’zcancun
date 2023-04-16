@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sneackz_cancun - Compra tus sneakers favoritos en línea</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fyqERb/het+Q34cXjFfzoYSvcC+86Uc0lQz" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#">sneackz_cancun</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Inicio</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Sneakers</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Acerca de</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+	<main>
+		<section id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1>Compra tus sneakers favoritos en línea</h1>
+						<p>En sneackz_cancun tenemos una amplia selección de sneakers de las mejores marcas, desde Nike hasta Adidas. Compra en línea y recibe tus sneakers en la comodidad de tu hogar.</p>
+						<a href="#" class="btn btn-primary btn-lg">Comprar ahora</a>
+					</div>
+					<div class="col-md-6">
+						<img src="https://via.placeholder.com/600x400" alt="Sneakers" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sneakers">
+			<div class="container">
+				<h2>Nuestros sneakers más populares</h2>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="card">
+							<img src="https://via.placeholder.com/300x200" alt="Sneaker" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Nike Air Max 270 React</h5>
+								<p class="card-text">$1,999.00 MXN</p>
+								<a href="#" class="btn btn-primary">Comprar</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3"> <div class="card">
+						<img src="https://via.placeholder.com/300x200" alt="Sneaker" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Adidas Ultraboost 21</h5>
+							<p class="card-text">$2,299.00 MXN</p>
+							<a href="#" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="https://via.placeholder.com/300x200" alt="Sneaker" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Puma RS-X3</h5>
+							<p class="card-text">$1,499.00 MXN</p>
+							<a href="#" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="https://via.placeholder.com/300x200" alt="Sneaker" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">New Balance 327</h5>
+							<p class="card-text">$1,799.00 MXN</p>
+							<a href="#" class="btn btn-primary">Comprar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="container">
+			<h2>Acerca de sneackz_cancun</h2>
+			<p>sneackz_cancun es una tienda en línea de sneakers de alta calidad de las mejores marcas. Ofrecemos una amplia selección de sneakers para hombres, mujeres y niños, y nos enorgullecemos de ofrecer un servicio excepcional al cliente. Siempre estamos buscando nuevas formas de mejorar nuestra selección y nuestro servicio, así que no dudes en ponerte en contacto con nosotros si tienes alguna pregunta o sugerencia.</p>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="container">
+		<p>&copy; 2023 sneackz_cancun - Todos los derechos reservados</p>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/XvoWjWT8KbR+a5Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRS <script>
+	// Add smooth scrolling to all links
+	$("a").on('click', function(event) {
+		if (this.hash !== "") {
+			event.preventDefault();
+			var hash = this.hash;
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 800, function(){
+				window.location.hash = hash;
+			});
+		}
+	});
+</script> </body>
+</html>
